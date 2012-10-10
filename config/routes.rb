@@ -1,5 +1,7 @@
 KinozeitServer::Application.routes.draw do
 
+  get 'movies/search'
+
   root :to => 'testing#test_json'
   # The priority is based upon order of creation:
   # first created -> highest priority.

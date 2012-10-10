@@ -26,6 +26,8 @@ group :development, :test do
 end
 
 gem 'jquery-rails'
+gem 'httparty', '<= 0.7.8'
+gem 'imdb_party'
 gem 'delayed_job_active_record'
 
 # To use ActiveModel has_secure_password
